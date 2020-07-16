@@ -1,0 +1,130 @@
+html
+
+body {
+    background-color : #f2f2f2;
+    font-size: 14;
+    width: 100%;
+}
+
+header {
+   color: #27d1ff;
+   background-image: url("texture-header.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   text-align: center;
+   background-size: 1400px;
+   height: 150px;
+   font-family: "OpenSans";
+}
+
+h1 { 
+    font-family: "nasalization-rg";
+    color: #27d1ff;
+    font-size: 40px;
+    vertical-align: center;
+    text-align: center;
+} 
+
+@font-face { 
+    font-family: "nasalization-rg"; 	
+    src: url('nasalization-rg.ttf'); 
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("OpenSans-Regular.ttf");
+}
+
+nav { 
+    will-change: inline-block;
+    background-color: #2e2f30;
+    padding-right: 50px;
+    margin: 0px;
+    color: white;
+    background-color: #2e2f30;
+    text-align: right;
+    vertical-align: center;
+    font-family: "OpenSans";
+}
+
+a:hover {
+    color: #17c1ff;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h2 { 
+    font-family: "OpenSans";
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px rgba(0,0,0, 0.5);
+    background-color: lightgrey;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+p {
+    font-size: 14;
+    font-family: "OpenSans";
+    width: 750px;
+    text-align: center;
+    padding: 10px;
+    vertical-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form { 
+    width: 300px;
+    padding: 8px;
+    font-family: "OpenSans";
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+
+input { 
+    width: 250px;
+    height: 30px;
+    border: 2px; color: #e6e6e6;
+
+}
+
+textarea {
+    width: 250px;
+    border: 2px; color: #e6e6e6;
+}
+
+.button a:hover {
+   color: #17c1ff;
+   
+}
+
+.textarea a:hover {
+    color : blue
+
+}
+
+.button a:active {
+    opacity : 40%;
+ }
+
+
+table { 
+    height: 480px;
+}
+
+th { 
+    background-color: #27d1ff;
+    color: #e6e6e6;
+}
+
