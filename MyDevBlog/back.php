@@ -40,7 +40,7 @@ function site(){
     }
 
     if (isset($_GET['page']))
-    if ($_GET ['page'] == 1){
+    if ($_GET ['page'] == 4){
         echo include ('accueil.php');
     }
 
