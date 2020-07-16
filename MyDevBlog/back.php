@@ -18,6 +18,7 @@ include ('header.php');
          <li><a href="back.php?page=1">Ajout article</a></li>
          <li><a href="back.php?page=2">Ajout utilisateur</a></li>
          <li><a href="back.php?page=3">Utilisateurs</a></li>
+         <li><a href="front.php?page=1">Accueil</a></li>
      </ul>
 </nav> 
 
@@ -36,6 +37,11 @@ function site(){
     if (isset($_GET['page']))
     if ($_GET ['page'] == 3){
         echo include ('utilisateur.php');
+    }
+
+    if (isset($_GET['page']))
+    if ($_GET ['page'] == 1){
+        echo include ('accueil.php');
     }
 
 }
